@@ -1,0 +1,7 @@
+{
+  "name": "testeFB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
