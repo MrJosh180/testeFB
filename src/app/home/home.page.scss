@@ -1,27 +1,23 @@
-#container {
-  text-align: center;
+/* Estilos simples para a página da biblioteca */
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+:host {
+  display: block;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.book-title {
+  margin: 0 0 4px 0;
+  font-weight: 600;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
+ion-list ion-item p {
   margin: 0;
+  color: var(--ion-color-medium-shade, #666);
 }
 
-#container a {
-  text-decoration: none;
+form ion-item {
+  --padding-start: 12px;
+}
+
+ion-button[fill="clear"] {
+  min-width: 60px;
 }
